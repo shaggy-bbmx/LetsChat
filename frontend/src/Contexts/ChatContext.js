@@ -166,7 +166,7 @@ export const ChatContextProvider = ({ children, user }) => {
 
     //TO ESTABLISH SOCKET CONNECTION
     useEffect(() => {
-        const newSocket = io('http://localhost:5000')
+        const newSocket = io('http://localhost:4000')
         setSocket(newSocket)
 
 

@@ -166,8 +166,8 @@ export const ChatContextProvider = ({ children, user }) => {
 
     //TO ESTABLISH SOCKET CONNECTION
     useEffect(() => {
-        // const newSocket = io('https://letschat-207o.onrender.com')
-        const newSocket = io('http://localhost:4000') 
+        const newSocket = io('https://letschat-207o.onrender.com')
+        // const newSocket = io('http://localhost:4000') 
         setSocket(newSocket)
 
 

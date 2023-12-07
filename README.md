@@ -5,7 +5,7 @@ Hi! My name is **Sagar Patel**, I have created this App.
 App is live at :- https://letschat-207o.onrender.com
 
 # Prerequisite
-React JS, Node JS, CSS ,HTML ,Mongo DB
+React JS, Node JS, CSS ,HTML ,Mongo DB,SOCKET.IO
 
 # Install Dependencies
 
@@ -15,7 +15,6 @@ React JS, Node JS, CSS ,HTML ,Mongo DB
 
 **For Frontend** - `cd backend` `node app.js`
 
-App will be Available at 'http://localhost:4000'
 
 ## Env Variables
 

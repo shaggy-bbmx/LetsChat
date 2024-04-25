@@ -77,8 +77,8 @@ export const ChatContextProvider = ({ children, user }) => {
             setPotentialChat(pChats)
         }
 
-        getUsers()
-    }, [userChats])
+        setTimeout(getUsers, 1000)
+    }, [userChats, onlineUsers])
 
 
     //FUCNTION TO LOAD FRIENDS
